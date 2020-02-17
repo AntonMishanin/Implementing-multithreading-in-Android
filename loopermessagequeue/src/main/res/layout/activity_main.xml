@@ -4,42 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
-        android:id="@+id/buttonStartThread"
+        android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onStartThread"
+        android:onClick="startThread"
         android:text="Start" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onStopThread"
+        android:onClick="stopThread"
         android:text="Stop" />
 
-    <Switch
-        android:id="@+id/switch1"
+    <Button
+        android:id="@+id/taskA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-         />
+        android:onClick="taskA"
+        android:text="Task A" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
+    <Button
+        android:id="@+id/taskB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
-
+        android:onClick="taskB"
+        android:text="Task B" />
 </LinearLayout>
