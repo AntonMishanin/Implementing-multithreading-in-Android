@@ -1,1 +1,1 @@
-include ':app', ':loopermessagequeue'
+include ':app', ':loopermessagequeue', ':handlerthread'

@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         Message msg = Message.obtain();
         msg.what = TASK_A;
         exampleLooperThread.handler.sendMessage(msg);
-
+/*
         Handler threadHandler = new Handler(exampleLooperThread.looper);
 
         threadHandler.post(new Runnable() {
@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "end of run()");
             }
         });
+*/
 
     }
 
