@@ -1,1 +1,1 @@
-include ':app', ':loopermessagequeue', ':handlerthread'
+include ':app', ':loopermessagequeue', ':handlerthread', ':asynctask'
